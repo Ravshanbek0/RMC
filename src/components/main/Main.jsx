@@ -9,10 +9,10 @@ function Main() {
             <section className='m-auto xl:container px-6 pt-10'>
                 <div className='flex flex-col lg:flex-row lg:justify-between xl:justify-between'>
                     <div className=' '>
-                        <h2 className='text-base xl:text-2xl text-[#FFC978]'>
+                        <h2 className="text-base xl:text-2xl xl:font-thin text-[#FFC978] defult-font">
                             OUR PROJECT
                         </h2>
-                        <h1 className='text-3xl xl:text-3xl text-white font-bold xl:mt-2'>Our Latest Projects</h1>
+                        <h1 className='defult-font text-3xl xl:text-5xl text-white xl:font-thin xl:mt-2'>Our Latest Projects</h1>
                     </div>
                     <nav className='flex cursor-pointer text-[#ABAEB7] justify-between lg:gap-2 xl:gap-6 xl:text-base  mt-8 mb-11 text-base md:text-xl flex-wrap'>
                         <li className='text-[#FFC978] underline'>All</li>
@@ -26,17 +26,17 @@ function Main() {
                         <img className='w-[100%] xl:w-[300px]  object-contain' src="./imgs/main/Rectangle 725.png" alt="" />
                         <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 754.png" alt="" />
                     </div>
-                    <div className='w-[45%] xl:gap-3 xl:w-auto flex flex-col gap-2 mt-7'>
+                    <div className='w-[45%] xl:gap-3 xl:w-auto flex flex-col gap-2 mt-10'>
                         <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 755.png" alt="" />
                         <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 756.png" alt="" />
                     </div>
                     <div className='w-[45%] xl:gap-3 xl:w-auto  flex-col gap-2 mt-0 hidden xl:flex'>
-                        <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 755.png" alt="" />
-                        <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 756.png" alt="" />
+                        <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 757.png" alt="" />
+                        <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 754.png" alt="" />
                     </div>
-                    <div className='w-[45%] xl:gap-3 xl:w-auto  flex-col gap-2 mt-7 hidden xl:flex'>
-                        <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 755.png" alt="" />
-                        <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 756.png" alt="" />
+                    <div className='w-[45%] xl:gap-3 xl:w-auto  flex-col gap-2 mt-10 hidden xl:flex'>
+                        <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 728.png" alt="" />
+                        <img className='w-[100%] xl:w-[300px] object-contain' src="./imgs/main/Rectangle 756 (1).png" alt="" />
                     </div>
                 </div>
             </section>
@@ -44,11 +44,11 @@ function Main() {
                 <div className='xl:container m-auto xl:flex xl:px-7'>
                     <div className='xl:flex xl:flex-row-reverse xl:gap-[122px]'>
                         <div className='xl:flex xl:flex-col xl:items-start'>
-                            <h1 className='text-3xl font-bold  text-white'>We Create Digital Experience</h1>
+                            <h1 className='text-3xl defult-font font-thin text-white'>We Create Digital Experience</h1>
                             <div className='flex justify-center gap-6 mt-10'>
-                                <span className='text-4xl text-[#ffc978] flex flex-col gap-2' >75% <p className='text-base text-[#dfe9eb]'>Architecture</p> </span>
-                                <span className='text-4xl text-[#ffc978] flex flex-col gap-2' >75% <p className='text-base text-[#dfe9eb]'>Architecture</p></span>
-                                <span className='text-4xl text-[#ffc978] flex flex-col gap-2' >75% <p className='text-base text-[#dfe9eb]'>Architecture</p></span>
+                                <span className='text-4xl defult-font font-thin text-[#ffc978] flex flex-col gap-2' >75% <p className='text-base text-[#dfe9eb]'>Architecture</p> </span>
+                                <span className='text-4xl defult-font font-thin text-[#ffc978] flex flex-col gap-2' >75% <p className='text-base text-[#dfe9eb]'>Architecture</p></span>
+                                <span className='text-4xl defult-font font-thin text-[#ffc978] flex flex-col gap-2' >75% <p className='text-base text-[#dfe9eb]'>Architecture</p></span>
                             </div>
                             <button className='p-4 px-7 mt-8 text-base text-white border mb-4'>Lets work together</button>
                         </div>
@@ -61,10 +61,10 @@ function Main() {
             </section>
             <section className='xl:container m-auto bg-gray-900 mt-6 px-6 xl:flex items-center xl:justify-center xl:gap-[51px]'>
                 <div>
-                    <h2 className='text-base text-[#FFC978]'>
+                    <h2 className='text-base defult-font font-thin text-[#FFC978]'>
                         OUR PROJECT
                     </h2>
-                    <h1 className='text-3xl text-white font-bold'>Check Availability</h1>
+                    <h1 className='text-3xl text-white defult-font font-thin xl:text-5xl'>Check Availability</h1>
                     <div class="flex mt-7 items-center justify-center text-white">
                         <div class="p-6 overflow-scroll xl:overflow-auto px-0">
                             <table class="w-full min-w-max table-auto text-left">

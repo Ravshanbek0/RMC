@@ -1,3 +1,4 @@
+@import url("https://db.onlinewebfonts.com/c/61637e80c3e88812def846832594f24d?family=Larken-Regular");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,4 +8,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+}
+.defult-font{
+  font-family: "Larken-Regular";                                                
 }
