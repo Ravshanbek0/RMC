@@ -21,18 +21,18 @@ const Header = () => {
           <a href="#" className="hover:text-gray-400">Blog</a>
         </nav>
         <div>
-  {/* Noutbuk ekran uchun tugma */}
-  <button className="hidden xl:block border border-white px-4 py-2 text-sm hover:bg-white hover:text-gray-900">
-    Contact
-  </button>
+          {/* Noutbuk ekran uchun tugma */}
+          <button className="hidden xl:block border border-white px-4 py-2 text-sm hover:bg-white hover:text-gray-900">
+            Contact
+          </button>
 
-  {/* Telefon ekran uchun rasm */}
-  <img
-    src={logo9}
-    alt="Placeholder Image"
-    className="block xl:hidden w-[27px] h-[24px] "
-  />
-</div>
+          {/* Telefon ekran uchun rasm */}
+          <img
+            src={logo9}
+            alt="Placeholder Image"
+            className="block xl:hidden w-[27px] h-[24px] "
+          />
+        </div>
       </header>
 
       {/* Main Section */}
@@ -63,48 +63,48 @@ const Header = () => {
 
       {/* Specializations Section */}
       {/* Specializations Section */}
-<section className="p-6">
-  <h2 className="text-center text-3xl font-bold mb-6">Our Specializations</h2>
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-    {[
-      {
-        img: logo2,
-        title: "Floor Plan",
-        desc: "Tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      {
-        img: logo3,
-        title: "Interior Design",
-        desc: "Tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      {
-        img: logo4,
-        title: "Architecture Design",
-        desc: "Tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      {
-        img: logo5,
-        title: "Construction",
-        desc: "Tempor incididunt ut labore et dolore magna aliqua.",
-      },
-    ].map((item, index) => (
-      <div
-        key={index}
-        className="relative group rounded-lg overflow-hidden shadow-lg"
-      >
-        <img
-          src={item.img}
-          alt={item.title}
-          className="w-full h-48 object-cover"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-end p-4 transition-opacity duration-300 opacity-0 group-hover:opacity-100">
-          <h3 className="text-xl font-semibold text-white">{item.title}</h3>
-          <p className="text-gray-300 text-sm">{item.desc}</p>
+      <section className="p-6">
+        <h2 className="text-center text-3xl font-bold mb-6">Our Specializations</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            {
+              img: logo2,
+              title: "Floor Plan",
+              desc: "Tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+              img: logo3,
+              title: "Interior Design",
+              desc: "Tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+              img: logo4,
+              title: "Architecture Design",
+              desc: "Tempor incididunt ut labore et dolore magna aliqua.",
+            },
+            {
+              img: logo5,
+              title: "Construction",
+              desc: "Tempor incididunt ut labore et dolore magna aliqua.",
+            },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="relative group rounded-lg overflow-hidden shadow-lg"
+            >
+              <img
+                src={item.img}
+                alt={item.title}
+                className="w-full h-48 object-cover"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-end p-4 transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+                <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                <p className="text-gray-300 text-sm">{item.desc}</p>
+              </div>
+            </div>
+          ))}
         </div>
-      </div>
-    ))}
-  </div>
-</section>
+      </section>
 
 
       {/* About Us Section */}
