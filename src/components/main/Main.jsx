@@ -1,7 +1,10 @@
 import React from 'react'
+import Header from '../header/Header'
 
 function Main() {
     return (
+        <div>
+        <Header/>
         <main className='w-full bg-gray-900'>
             <section className='m-auto xl:container px-6 pt-10'>
                 <div className='flex flex-col lg:flex-row lg:justify-between xl:justify-between'>
@@ -316,6 +319,7 @@ function Main() {
                 </div>
             </section>
         </main>
+        </div>
     )
 }
 
